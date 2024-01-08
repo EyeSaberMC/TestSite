@@ -1,27 +1,33 @@
-.fancy-sidebar {
-    background-color: #f4f4f4;
-    width: 200px;
-    padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
   }
   
-  .fancy-sidebar ul {
-    list-style: none;
-    padding: 0;
+  .sidebar-content {
+    padding: 16px;
+    text-align: center;
+    color: white;
   }
   
-  .fancy-sidebar li {
-    margin-bottom: 10px;
+  .open-btn {
+    position: absolute;
+    top: 20px;
+    left: 10px;
   }
   
-  .fancy-sidebar a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s;
+  .main-content {
+    transition: margin-left 0.5s;
+    padding: 16px;
   }
   
-  .fancy-sidebar a:hover {
-    color: #ff6600;
+  .main-content {
+    margin-left: 250px;
   }
