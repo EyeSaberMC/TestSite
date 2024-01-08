@@ -1,0 +1,27 @@
+.fancy-sidebar {
+    background-color: #f4f4f4;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fancy-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fancy-sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .fancy-sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .fancy-sidebar a:hover {
+    color: #ff6600;
+  }
